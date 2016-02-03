@@ -264,6 +264,64 @@ plusOne(41);                 // y=41 => return 41 + 1 = 42
 plusTen(13);                 // y=23 => return 13 + 10 = 23
 ```
 
+#### Modules
+
+The most common usage of closure in JavaScript is the module pattern.
+Modules let to define private implementation details (variables, functions)
+that are hidden from the outside world, as well as a public API that is
+accessible from the outside.
+
+```js
+function User() {
+  var username, password;
+
+  function doLogin(user, pw) {
+    username = user;
+    password = pw;
+  }
+
+  var publicAPI = {
+    login: doLogin  // reference to function doLogin(user, pw)
+    // the same as
+    // login: function doLogin(user, pw) {...}
+  };
+
+  return publicAPI;
+}
+
+// create a 'User' module instance
+var fred = User();  // just function which returns the publicAPI object
+fred.login("fred", "12Battery34!");
+```
+
+Executing `User()` creates an instance of the `User` module. It's just a function,
+that returns `publicAPI` object.
+
+#### `this` identifier
+
+```js
+function foo() {
+  console.log(this.bar);
+}
+
+var bar = 'global';
+
+var obj1 = {
+  bar: 'obj1',
+  foo: foo
+};
+
+var obj2 = {
+  bar: 'obj2'
+};
+
+// -----
+foo();          // 'global'
+obj1.foo();     // 'obj1'
+foo.call(obj2); // 'obj2'
+new foo();      // undefined
+```
+
 --------------------------------------------------------------------------------
 
 ### Values & types
