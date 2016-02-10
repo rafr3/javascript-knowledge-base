@@ -25,6 +25,7 @@
     waiting for  browser support.
     - [JS Libraries](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
     - AngularJS
+    - Node.js, jQuery, Dojo
 
   - HTML
     - Jade
@@ -34,6 +35,23 @@
   - CSS
     - Sass - CSS with variables, nesting, mixins, inheritance...
     - Less
+    - Methodology:
+      - [BEM (Block Element Modifier)](https://css-tricks.com/bem-101/)
+      - [ITCSS (Inverted Triangle CSS)](http://www.creativebloq.com/web-design/manage-large-scale-web-projects-new-css-architecture-itcss-41514731)
+      - [OOCSS (Object Oriented CSS)](https://www.smashingmagazine.com/2011/12/an-introduction-to-object-oriented-css-oocss/)
+      - [SMACSS (Scalable and Modular Architecture for CSS)](https://smacss.com/)
+      - DRY (Don't Repeat Yourself)
+
+  - Frameworks
+    - [Bootstrap](http://getbootstrap.com/)
+    - [Foundation](http://foundation.zurb.com/)
+    - [Material UI](https://github.com/callemall/material-ui)
+    - [Pure.css](http://purecss.io/)
+    - JavaScript
+      - AngularJS
+      - Ember
+      - Meteor
+      - React
 
   - Other
     - require.js
@@ -57,8 +75,9 @@
   - Bower
 
 
----
-Node / Browserify / Webpack
+### Mobile apps
+[Apache Cordova](https://cordova.apache.org/) / [PhoneGap]
+[Ionic Framework](http://ionicframework.com/)
 
 ### Why you need a build system like GRUNT, GULP, BRUNCH for your website
 
