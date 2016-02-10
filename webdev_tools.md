@@ -3,7 +3,7 @@
 1. Prototyping  
   - JSBin
   - JSFiddle
-  - Codepen
+  - Codepen  
 
 2. Skeleton  
   - NPM
