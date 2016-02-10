@@ -7,9 +7,10 @@
 
 2. Skeleton  
   - NPM
-  - Yeoman
-  - Gulp / Grunt
-  - Bootstrap / Foundation / Primer / Skeleton  
+  - Yeoman - Scaffolding, helps kickstart new projects.
+  - Bower - Package manager (frameworks, libraries, assets, utilities...)
+  - Gulp / Grunt - JavaScript task runners, performing repetitive tasks (minification, compilation, unit testing, linting...)
+  - Frameworks: Bootstrap / Foundation / Primer / Skeleton  
 
 3. Code  
   - Editor / IDE
@@ -23,6 +24,7 @@
     - [Babel](https://babeljs.io/) - Allows to use new syntax, right now without
     waiting for  browser support.
     - [JS Libraries](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
+    - AngularJS
 
   - HTML
     - Jade
@@ -30,7 +32,7 @@
     - Emmet
 
   - CSS
-    - Sass
+    - Sass - CSS with variables, nesting, mixins, inheritance...
     - Less
 
   - Other
