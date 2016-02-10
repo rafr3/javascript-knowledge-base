@@ -38,7 +38,7 @@
     - require.js
     - browserify
   
-4. aTesting  
+4. Testing  
   - Karma
   - Jasmine
   - Mocha
@@ -48,7 +48,7 @@
 5. Debugging  
   - Chrome Developer tools
   - Firefox Developer Edition
-  
+
 6. Distribution  
   - Require.js
   - WebPack
