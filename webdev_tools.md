@@ -19,8 +19,7 @@
     - VisualStudio
 
   - JavaScript
-    - [CoffeeScript](http://coffeescript.org/)
-    - [TypeScript](http://www.typescriptlang.org/)
+    - [CoffeeScript](http://coffeescript.org/) / [TypeScript](http://www.typescriptlang.org/)
     - [Babel](https://babeljs.io/) - Allows to use new syntax, right now without
     waiting for  browser support.
     - [JS Libraries](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
@@ -37,7 +36,7 @@
   - Other
     - require.js
     - browserify
-  
+
 4. Testing  
   - Karma
   - Jasmine
